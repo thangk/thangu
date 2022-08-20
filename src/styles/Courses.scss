@@ -1,5 +1,5 @@
 .coursesList {
-    @apply grid grid-cols-6 gap-4 py-[10rem];
+    @apply grid grid-cols-6 py-[10rem] gap-4;
 
     h1 {
         @apply px-6 py-2 border border-blue-400 rounded-md text-blue-700 hover:bg-blue-500 hover:cursor-pointer hover:text-amber-400
