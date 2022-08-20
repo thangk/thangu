@@ -1,0 +1,57 @@
+
+
+.footer__wrapper {
+    @apply mt-[10rem] w-full h-fit bg-blue-700
+}
+
+.footer__inner_wrapper {
+    @apply w-[110rem] mx-auto text-blue-50 py-6 px-12 font-yeseva-one flex flex-col gap-8
+}
+
+h1 {
+    @apply text-2xl uppercase font-alfa-slab-one
+}
+
+h2 {
+    @apply hover:underline hover:cursor-pointer
+}
+
+.footer__links1 {
+    @apply flex justify-between
+}
+
+.footer__links1_left {
+    @apply grid grid-cols-2 gap-3
+}
+
+.footer__links1_right {
+
+    form {
+        @apply flex flex-col gap-2;
+
+        input {
+            @apply leading-relaxed pl-4 py-2 text-blue-700 rounded-l-md 
+        }
+
+        button {
+            @apply leading-relaxed px-4 py-2 bg-amber-400 rounded-r-md text-blue-700 hover:bg-amber-500
+        }
+    }
+
+}
+
+.footer__socials {
+    @apply flex gap-4 text-3xl hover:cursor-pointer
+}
+
+.footer__links3 {
+    @apply flex flex-col gap-6
+}
+
+.footer__links3 section {
+    @apply flex gap-6 justify-center
+}
+
+.footer__links3 h3 {
+    @apply text-center
+}

@@ -1,0 +1,15 @@
+.navbar__wrapper {
+    @apply w-[110rem] m-auto -mt-4 -mb-4 flex items-center justify-between;
+
+    img {
+        @apply w-52 hover:cursor-pointer
+    }
+}
+
+.navbar__links {
+    @apply bg-blue-700 p-4 px-14 rounded-3xl flex gap-16 text-xl font-yeseva-one text-blue-50 drop-shadow-xl;
+}
+
+.navbar__links_item {
+    @apply hover:text-amber-400 hover:underline
+}

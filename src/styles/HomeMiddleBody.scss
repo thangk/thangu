@@ -1,0 +1,15 @@
+.homemiddlebody__wrapper {
+    @apply w-[110rem] mt-[45rem] mx-auto grid grid-cols-3 gap-12 
+}
+
+.homemiddlebody__card {
+    @apply flex flex-col gap-6 items-center;
+
+    h1 {
+        @apply text-2xl text-center capitalize font-yeseva-one;
+    }
+
+    img {
+        @apply w-[450px] h-[450px] object-cover object-center rounded-lg
+    }
+}

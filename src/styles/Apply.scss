@@ -1,0 +1,55 @@
+.apply__wrapper {
+    @apply w-[110rem] mx-auto py-16 px-12 bg-blue-100 shadow-xl rounded-xl mt-6 flex justify-center relative;
+
+    form {
+        @apply flex flex-col gap-6 items-center border-blue-300 border p-12 px-24 rounded-lg;
+
+        input {
+            @apply leading-loose pl-2 rounded-sm
+        }
+
+        button {
+            @apply bg-amber-400 px-8 py-2 rounded-xl hover:bg-amber-500
+        }
+    }
+}
+
+
+
+.loginsignup-form-item-right {
+    @apply flex flex-col gap-2
+}
+
+
+
+.loginsignuppage__validation_error {
+	@apply absolute flex flex-col gap-12 left-1/2 top-[50%] -translate-x-1/2 -translate-y-1/2 w-fit max-w-[350px] h-fit pt-6 pb-12 px-6 bg-red-400 text-blue-50 rounded-xl items-center font-yeseva-one
+}
+
+.loginsignuppage__validation_error button {
+	@apply px-12 py-1 bg-blue-50 text-blue-700 rounded-md w-fit justify-self-center
+}
+
+.loginsignup__error_buttonwrapper {
+	@apply flex justify-center
+}
+
+.loginsignuppage__error_content_error {
+	@apply font-bold
+}
+
+.loginsignuppage__error_title {
+	@apply text-center text-3xl font-bold 
+}
+
+.loginsignuppage__error_content {
+	@apply flex flex-col gap-4 my-6
+}
+
+.loginsignuppage__on {
+    @apply block
+}
+
+.loginsignuppage__off {
+    @apply hidden
+}

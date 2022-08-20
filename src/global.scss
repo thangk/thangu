@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import './styles/Slideshow.scss';
+@import './styles/Navbar.scss';
+@import './styles/HomeMiddleBody.scss';
+@import './styles/Footer.scss';
+@import './styles/Apply.scss';
+@import './styles/Account.scss';
+@import './styles/Courses.scss';
+@import './styles/Contact.scss';
+
+.page__wrapper {
+    @apply w-[110rem] mx-auto py-6 px-12 bg-blue-100 shadow-xl rounded-xl mt-6 flex justify-center relative;
+}
+
+.routegroups__wrapper {
+    @apply flex flex-col gap-6 min-h-screen
+}
